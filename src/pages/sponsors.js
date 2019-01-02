@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
+import Sponsor from '../components/sponsor';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -11,8 +10,17 @@ const IndexPage = () => (
     <h2>
       AMSAT-ZL and the KiwiSAT Team are grateful for the willing support of:
     </h2>
+    <Sponsor
+      url="http://www.massey.ac.nz/"
+      text="Support for Space-frame Technology, Space Environmental Testing and Battery Analysis."
+      src="images/sponsors/massey_uni.gif"
+    />
     <div class="sponsor">
-      <a href="http://www.massey.ac.nz/" target="_blank">
+      <a
+        href="http://www.massey.ac.nz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/massey_uni.gif"
           alt="Support for Space-frame Technology, Space Environmental Testing and Battery Analysis."
@@ -24,7 +32,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.novozone.co.nz/" target="_blank">
+      <a
+        href="http://www.novozone.co.nz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/novozone.gif"
           alt="Electronic circuit design and construction assistance by Novozone Ltd. specialists in ozone applications for air and water purification."
@@ -36,7 +48,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://tmd.co.nz/index.htm" target="_blank">
+      <a
+        href="http://tmd.co.nz/index.htm"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/TMD_s.jpg"
           alt="Prototype design development, assembly and testing of KiwiSAT's U/V transponder."
@@ -60,7 +76,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.camsensor.com/" target="_blank">
+      <a
+        href="http://www.camsensor.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/camsensor%20logo.gif"
           alt="Horizon camera design/construction and assistance with general satellite housekeeping software development."
@@ -72,7 +92,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.hubersuhner.com/" target="_blank">
+      <a
+        href="http://www.hubersuhner.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/sponsor1.gif"
           alt="RF cables and connectors donated by InTELCOM SERVICES LTD. and Huber &amp; Suhner (Australia) PTY LTD"
@@ -94,7 +118,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.vencon.com/" target="_blank">
+      <a
+        href="http://www.vencon.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/Venco_logo2.jpg"
           alt="Battery analysis equipment and software"
@@ -106,7 +134,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.camfilfarr.com/" target="_blank">
+      <a
+        href="http://www.camfilfarr.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/Camfil Farr.jpg"
           alt="Spacecraft Ground Support Equipment (Clean-Box) air filtration design assistance"
@@ -118,7 +150,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.tycoelectronics.co.nz/" target="_blank">
+      <a
+        href="http://www.tycoelectronics.co.nz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/tyco.jpg"
           alt="Tyco Electronics is proud to support the Kiwi-Sat project with the supply of space qualified heat-shrink material."
@@ -131,7 +167,7 @@ const IndexPage = () => (
 
     <div class="sponsor">
       <div align="center">
-        <a href="http://www.atsb.my" target="_blank">
+        <a href="http://www.atsb.my" target="_blank" rel="noopener noreferrer">
           <img
             src="images/sponsors/atsb.jpg"
             alt="ASTRONAUTIC TECHNOLOGY(M) SDN. BHD. For location and provision of small quantity space quality RF components in support of the U/V transponder"
@@ -144,7 +180,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.fphcare.com/" target="_blank">
+      <a
+        href="http://www.fphcare.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/FP_logo.GIF"
           alt="Fisher &amp; Paykel Healthcare for Facilities and expertise for structure and component vibration testing."
@@ -156,7 +196,7 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.rakon.com/" target="_blank">
+      <a href="http://www.rakon.com/" target="_blank" rel="noopener noreferrer">
         <img
           src="images/sponsors/rakon_sm.gif"
           alt="Rakon Limited is a world leader in the development of high performance frequency control technology based on quartz crystals, which lie at the heart of all electronic products."
@@ -168,7 +208,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.hsmicrowave.com/" target="_blank">
+      <a
+        href="http://www.hsmicrowave.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/HSM_LOGO.jpg"
           alt="Assembly tooling and space materials aquisition/assistance."
@@ -180,7 +224,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.designsolutions.co.nz/" target="_blank">
+      <a
+        href="http://www.designsolutions.co.nz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/DS_Logo_s.GIF"
           alt="For graphics in support of the ADAC telemetry download and processing software."
@@ -192,7 +240,11 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://www.glueguru.co.nz/index.php" target="_blank">
+      <a
+        href="http://www.glueguru.co.nz/index.php"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="images/sponsors/glue_guru.jpg"
           alt="Glue Guru Industrial supporting KiwiSAT with specialised structural compounds/adhesives"
@@ -214,7 +266,7 @@ const IndexPage = () => (
     </div>
 
     <div class="sponsor">
-      <a href="http://johnson.aero/" target="_blank">
+      <a href="http://johnson.aero/" target="_blank" rel="noopener noreferrer">
         <img
           src="images/sponsors/JALogo.gif"
           alt="Johnson Aero - aeronautics and astronautics projects - from sea to shining star."
