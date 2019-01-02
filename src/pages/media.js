@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h2 class="first">
       <strong>Media</strong>
     </h2>
-    <p style="clear:right;padding:8px 0 0 0">
+    <p>
       <img src="images/Ksat_Asian_conf.jpg" width="250" height="66" />
       Asian Space Conference 2007.
     </p>
