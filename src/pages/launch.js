@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -11,7 +9,12 @@ const IndexPage = () => (
     <h2>Launch into Orbit </h2>
     <p>
       <a href="https://www.rocketlabusa.com/">
-        <img src="images/RL_Flight.jpg" width="124" height="306" />
+        <img
+          src="images/RL_Flight.jpg"
+          alt="Rocket Labs"
+          width="124"
+          height="306"
+        />
       </a>
       Early planning pointed towards ISC Kosmatras for a DNEPR launch in mid to
       late 2012. That time has passed and ride costs have escalated. More

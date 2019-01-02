@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -12,7 +10,12 @@ const IndexPage = () => (
       <strong>Media</strong>
     </h2>
     <p>
-      <img src="images/Ksat_Asian_conf.jpg" width="250" height="66" />
+      <img
+        src="images/Ksat_Asian_conf.jpg"
+        alt="KiwiSAT Asian Conference"
+        width="250"
+        height="66"
+      />
       Asian Space Conference 2007.
     </p>
 

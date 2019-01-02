@@ -1,8 +1,6 @@
 ﻿import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -47,6 +45,7 @@ const IndexPage = () => (
         >
           <img
             src="images/Technical/mag_jimbol_2s.JPG"
+            alt="Honeywell Magnetometer Head Test in Rig Gymbol"
             width="250"
             height="188"
           />
@@ -63,6 +62,7 @@ const IndexPage = () => (
         >
           <img
             src="images/Technical/mag-jimbol_1s.JPG"
+            alt="Mangetometer Demonstration / Test Rig"
             width="250"
             height="188"
           />

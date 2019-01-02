@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -73,7 +72,12 @@ const IndexPage = () => (
           rel="lightbox[Gallery]"
           title="(Left to right) AMSAT-ZL Secretary, Ian ZL1AOX & KiwiSAT Engineer, Fred ZL1BPY recieve cheque from VHF Group Secretary, Dick ZL2TGQ."
         >
-          <img src="images/VHF_Group_hands.gif" width="150" height="104" />
+          <img
+            src="images/VHF_Group_hands.gif"
+            alt="Wellington VHF Group"
+            width="150"
+            height="104"
+          />
         </a>
         Hands of support - $10,000
       </p>

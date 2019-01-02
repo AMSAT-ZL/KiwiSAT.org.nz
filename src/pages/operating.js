@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -46,6 +44,7 @@ const IndexPage = () => (
       <a
         href="http://www.uk.amsat.org/images/PDF/Satellites_RadCom_mar07.pdf"
         target="_blank"
+        rel="noopener noreferrer"
       >
         here
       </a>

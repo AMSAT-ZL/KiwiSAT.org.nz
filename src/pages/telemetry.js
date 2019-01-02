@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -34,7 +32,11 @@ const IndexPage = () => (
     <p>Further page shots will be added shortly.</p>
     <p>
       If you are interested in evaluating KiwiSAT-TLM please contact the program
-      <a href="mailto:osbornes@paradise.net.nz" target="_blank">
+      <a
+        href="mailto:osbornes@paradise.net.nz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Author
       </a>
     </p>

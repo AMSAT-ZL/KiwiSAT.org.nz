@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -45,7 +43,12 @@ const IndexPage = () => (
           rel="lightbox[Gallery]"
           title="Lower face with 70 cm Beacon antenna centrally mounted."
         >
-          <img src="images/status09/antenna_z_s.jpg" width="140" height="162" />
+          <img
+            src="images/status09/antenna_z_s.jpg"
+            alt="Lower face with 70cm beacon antenna centrally mounted"
+            width="140"
+            height="162"
+          />
         </a>
         70 cm Beacon Antenna.
       </p>

@@ -1,8 +1,6 @@
 ﻿import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -27,6 +25,7 @@ const IndexPage = () => (
         >
           <img
             src="images/Technical/sun_sensor_kit_s.jpg"
+            alt="Sun sensor"
             width="120"
             height="71"
           />
@@ -61,6 +60,7 @@ const IndexPage = () => (
         >
           <img
             src="images/Technical/sun_s_test_rig_s.JPG"
+            alt="Sun sensor test rig"
             width="120"
             height="90"
           />
@@ -86,6 +86,7 @@ const IndexPage = () => (
         >
           <img
             src="images/Technical/sun_sensor_s.jpg"
+            alt="Flight ready sun sensor"
             width="113"
             height="89"
           />

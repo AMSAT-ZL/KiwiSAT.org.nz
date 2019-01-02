@@ -1,15 +1,13 @@
 ﻿import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Horizon Sensor" keywords={[`KiwiSAT`, `New Zealand`]} />
     <h2>
-      Horizon Sensor. <a class="tiny">(2/Aug/07)</a>{' '}
+      Horizon Sensor. <span class="tiny">(2/Aug/07)</span>
     </h2>
     <p>
       The Horizon Sensor is a dual unit with sensors for visible light and near
@@ -25,6 +23,7 @@ const IndexPage = () => (
         >
           <img
             src="images/Technical/horizon_1_s.jpg"
+            alt="Horizon sensor"
             width="150"
             height="144"
           />
@@ -99,7 +98,12 @@ const IndexPage = () => (
           rel="lightbox[Gallery]"
           title="Beam reaction on crossing the Terminator."
         >
-          <img src="images/Technical/horizon_2_s.jpg" width="150" height="93" />
+          <img
+            src="images/Technical/horizon_2_s.jpg"
+            alt="Beam reaction on crossing the terminator"
+            width="150"
+            height="93"
+          />
         </a>
         Fig.2 Crossing the Terminator.
       </p>

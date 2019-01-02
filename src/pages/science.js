@@ -1,8 +1,6 @@
 ﻿import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -37,7 +35,12 @@ const IndexPage = () => (
         rel="lightbox[Gallery]"
         title="Bare-bones Magnatorque Attitude Control Test Rig."
       >
-        <img src="images/attitude_testrig_s.jpg" width="200" height="229" />
+        <img
+          src="images/attitude_testrig_s.jpg"
+          alt="Bare-bones Magnatorque Attitude Control Test Rig"
+          width="200"
+          height="229"
+        />
       </a>
       Magnatorque Test rig.
     </div>

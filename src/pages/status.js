@@ -1,8 +1,6 @@
 ﻿import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -12,7 +10,7 @@ const IndexPage = () => (
       Current Status <span class="tiny">(2/7/2017)</span>
     </h2>
     <h3>
-      <img src="images/MkII_web_s.jpg" alt="" width="156" height="142" />
+      <img src="images/MkII_web_s.jpg" alt="KiwiSAT" width="156" height="142" />
     </h3>
     <h3>KiwiSAT. All systems are now fight ready. </h3>
     <h3>Outstanding:</h3>
@@ -51,7 +49,12 @@ const IndexPage = () => (
               rel="lightbox[Gallery]"
               title="KiwiSAT in final assemble format under test in the AMSAT-ZL Clean Room at Massey Univesity in Albany."
             >
-              <img src="images/clean_room-2011_s.jpg" width="140" height="93" />
+              <img
+                src="images/clean_room-2011_s.jpg"
+                alt="Clean room"
+                width="140"
+                height="93"
+              />
             </a>{' '}
             AMSAT-ZL Clean Room{' '}
           </p>
@@ -111,7 +114,12 @@ const IndexPage = () => (
           rel="lightbox[Gallery]"
           title="Transmitters installed in bottom tray."
         >
-          <img src="images/Dec_09/Tray_3_s.jpg" width="140" height="150" />
+          <img
+            src="images/Dec_09/Tray_3_s.jpg"
+            alt="Transmitters installed in bottom tray"
+            width="140"
+            height="150"
+          />
         </a>{' '}
         Transmitter Tray{' '}
       </p>
@@ -132,7 +140,12 @@ const IndexPage = () => (
           rel="lightbox[Gallery]"
           title="Battery Charge Regulator – this unit controls all on-board DC power supplying discrete voltages to each module."
         >
-          <img src="images/Dec_09/BCR_Tray_s.jpg" width="140" height="136" />
+          <img
+            src="images/Dec_09/BCR_Tray_s.jpg"
+            alt="Battery charge regulator"
+            width="140"
+            height="136"
+          />
         </a>{' '}
         Central Power Control{' '}
       </p>
