@@ -88,7 +88,7 @@ const Footer = () => (
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <footer style={{ color: `white` }}>© 2006~2018 AMSAT-ZL</footer>
+        <footer style={{ color: `white` }}>© 2006~2019 AMSAT-ZL</footer>
       </div>
     </div>
   </>

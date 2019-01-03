@@ -5,7 +5,7 @@ import Card from '../components/card';
 import SEO from '../components/seo';
 
 import nzart from '../images/nzart.gif';
-import amsatIndia from '../images/amsat_india.gif';
+import amsatIndia from '../images/amsat_india.png';
 import goMars from '../images/go_mars.jpg';
 import P3E from '../images/P3-E.jpg';
 import IARU from '../images/iaru.gif';
@@ -29,8 +29,8 @@ const IndexPage = () => (
       src={amsatIndia}
       alt=""
       text="AMSAT India"
-      width="206"
-      height="50"
+      width="160"
+      height="79"
     />
     <Card
       href="http://www.go-mars.org/"
