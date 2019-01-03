@@ -11,13 +11,19 @@ const Card = props => (
     }}
   >
     <a href={props.href} rel={props.rel}>
-      <img
-        src={props.src}
-        alt={props.alt}
-        width={props.width}
-        height={props.height}
-        style={{ float: 'left', marginRight: '1em' }}
-      />
+      <div style={{ width: `200px`, float: `left`, marginRight: `1em` }}>
+        <img
+          src={props.src}
+          alt={props.alt}
+          width={props.width}
+          height={props.height}
+          style={{
+            display: `block`,
+            marginLeft: `auto`,
+            marginRight: `auto`,
+          }}
+        />
+      </div>
       {props.text}
       <br clear="all" />
     </a>

@@ -13,7 +13,7 @@ import amsatDL from '../images/amsat_dl.png';
 import amsatUK from '../images/amsat_uk.gif';
 import amsatNA from '../images/amsat_na.gif';
 import jamsat from '../images/jamsat.gif';
-import amsatVK from '../images/amsatvk.gif';
+import amsatVK from '../images/amsat_vk.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -77,8 +77,8 @@ const IndexPage = () => (
       src={amsatNA}
       alt=""
       text="AMSAT NA (North America)"
-      width="91"
-      height="96"
+      width="75"
+      height="90"
     />
     <Card
       href="http://www.jamsat.or.jp/index_e.html"
@@ -93,8 +93,8 @@ const IndexPage = () => (
       src={amsatVK}
       alt=""
       text="AMSAT VK (Australia)"
-      width="200"
-      height="85"
+      width="150"
+      height="153"
     />
   </Layout>
 );
