@@ -9,7 +9,7 @@ import amsatIndia from '../images/amsat_india.png';
 import goMars from '../images/go_mars.jpg';
 import P3E from '../images/P3-E.jpg';
 import IARU from '../images/iaru.gif';
-import amsatDL from '../images/adl-anim.gif';
+import amsatDL from '../images/amsat_dl.png';
 import amsatUK from '../images/amsat_uk.gif';
 import amsatNA from '../images/amsat_na.gif';
 import jamsat from '../images/jamsat.gif';
@@ -41,7 +41,7 @@ const IndexPage = () => (
       height="102"
     />
     <Card
-      href="http://www.p3e-satellite.org/index.pl"
+      href=""
       src={P3E}
       alt=""
       text="International Project P3-E"
@@ -61,8 +61,8 @@ const IndexPage = () => (
       src={amsatDL}
       alt=""
       text="AMSAT DL (Germany)"
-      width="87"
-      height="100"
+      width="200"
+      height="45"
     />
     <Card
       href="http://www.uk.amsat.org/"
