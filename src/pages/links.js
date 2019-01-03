@@ -8,7 +8,7 @@ import nzart from '../images/nzart.gif';
 import amsatIndia from '../images/amsat_india.png';
 import goMars from '../images/go_mars.jpg';
 import P3E from '../images/P3-E.jpg';
-import IARU from '../images/iaru.gif';
+import IARU from '../images/iaru.jpg';
 import amsatDL from '../images/amsat_dl.png';
 import amsatUK from '../images/amsat_uk.gif';
 import amsatNA from '../images/amsat_na.gif';
@@ -22,6 +22,8 @@ const IndexPage = () => (
       href="https://nzart.org.nz/"
       src={nzart}
       alt="NZART"
+      width="69"
+      height="142"
       text="New Zealand Association of Radio Transmitters (NZART)"
     />
     <Card
@@ -54,7 +56,7 @@ const IndexPage = () => (
       alt="KiwiSAT media"
       text="IARU"
       width="61"
-      height="120"
+      height="117"
     />
     <Card
       href="http://www.amsat-dl.org/english.html"
