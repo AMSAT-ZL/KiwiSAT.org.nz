@@ -71,3 +71,5 @@ yarn-error.log
 # Editor debris
 *~
 *.bak
+*.swp
+
