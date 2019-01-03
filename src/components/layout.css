@@ -621,6 +621,7 @@ pre tt:after {
 .flex-grid {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2.8em;
 }
 .col {
   flex: 1;
