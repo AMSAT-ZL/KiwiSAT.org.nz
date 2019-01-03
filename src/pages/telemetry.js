@@ -3,42 +3,38 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+import telemetryScreenShot from '../images/technical/Tel_BCR_s.jpg';
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Telemetry" keywords={[`KiwiSAT`, `New Zealand`]} />
     <h2>Telemetry</h2>
-    <div class="image">
-      <p>
-        <a
-          href="images/Technical/Tel_BCR.jpg"
-          rel="lightbox[Gallery]"
-          title="Sample screen output from Telemetry program. Real data from ground testing."
-        >
-          <img
-            src="images/Technical/Tel_BCR_s.jpg"
-            alt="BCR Telemetry Display"
-            width="140"
-            height="90"
-          />
-        </a>{' '}
-        BCR - Battery Display
-      </p>
+    <div
+      style={{
+        width: '325px',
+        marginBottom: '1.45em',
+      }}
+    >
+      <img
+        src={telemetryScreenShot}
+        alt="Sample screen output from Telemetry program. Real data from ground testing."
+        width="325"
+        height="210"
+        style={{ marginBottom: `0` }}
+      />
+      <span style={{ fontStyle: `italic` }}>
+        BCR - battery display during ground testing
+      </span>
     </div>
     <p>
       Telemetry - The KiwiSAT-TLM Telemetry Decoder Ground Station software is
       now being tested. Here is a screen shot of the BCR - Battery page showing
       data from KiwiSAT ground testing.
     </p>
-    <p>Further page shots will be added shortly.</p>
+    <p>Further screen shots will be added shortly.</p>
     <p>
-      If you are interested in evaluating KiwiSAT-TLM please contact the program
-      <a
-        href="mailto:osbornes@paradise.net.nz"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Author
-      </a>
+      If you are interested in evaluating KiwiSAT-TLM please contact the
+      program's <a href="mailto:osbornes@paradise.net.nz">author</a>.
     </p>
   </Layout>
 );

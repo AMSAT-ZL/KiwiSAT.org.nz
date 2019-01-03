@@ -618,6 +618,16 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  flex: 1;
+}
+@media only screen and (max-width: 768px) {
+  .flex-grid {display: block}
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
