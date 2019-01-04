@@ -76,11 +76,10 @@ const IndexPage = () => (
       <li>Emission Type: 9600 bps data, FM Voice</li>
     </ul>
     <br />
-    <strong> Beacons: </strong>
-    <br />
+    <h3> Beacons</h3>
     <strong>Beacon 1</strong>:
     <ul style={{ listStyle: `none` }}>
-      <li>CW Beacon Attached to Linear Transponder:</li>
+      <li>CW Beacon Attached to Linear Transponder</li>
       <li>Frequency: 145.885 MHz</li>
       <li>Emission Type: CW standard Morse code</li>
       <li>Power: 50 mW (+17 dBm) EIRP</li>
