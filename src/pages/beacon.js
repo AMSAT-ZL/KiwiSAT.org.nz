@@ -36,7 +36,7 @@ const IndexPage = () => (
       The ionospheric characteristics that require investigation are Total
       Electron Content (TEC) and Faraday Rotation.
     </p>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/status09/antenna_z.jpg"

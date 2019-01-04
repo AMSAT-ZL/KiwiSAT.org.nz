@@ -42,7 +42,7 @@ const IndexPage = () => (
         </p>
       </li>
       <li>
-        <div class="image">
+        <div>
           <p>
             <a
               href="images/clean_room-2011.jpg"
@@ -107,7 +107,7 @@ const IndexPage = () => (
     <h2>The Structure. - </h2>
     <p>From the bottom of KiwiSAT and working up.</p>
     <h2>Tray No 1. </h2>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Dec_09/Tray_3.jpg"
@@ -133,7 +133,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>Tray No 2.</h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Dec_09/BCR_Tray.jpg"
@@ -159,7 +159,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>Tray No 3. </h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Dec_09/Bat_Tray.jpg"
@@ -184,7 +184,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>Tray No 4.</h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Dec_09/IHU_tray.jpg"
@@ -214,7 +214,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>Tray No 5 -The receivers. </h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Dec_09/Rx_Tray.jpg"
@@ -243,7 +243,7 @@ const IndexPage = () => (
     </p>
     <h3>&nbsp;</h3>
     <h3>The Attic. </h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Dec_09/Flatsat_4.jpg"
@@ -266,7 +266,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h2>Looming Up</h2>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Flight loom 1.jpg"
@@ -290,7 +290,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>Ground Testing</h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/Massey 2.JPG"
@@ -318,7 +318,7 @@ const IndexPage = () => (
     </p>
     <p>&nbsp;</p>
     <h2>Solar Panels</h2>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Solar panels 1.jpg"
@@ -344,7 +344,7 @@ const IndexPage = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h2>AMSAT-ZL Clean Room</h2>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Clean_cabinet.jpg"

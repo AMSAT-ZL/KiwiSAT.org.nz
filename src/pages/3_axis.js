@@ -36,7 +36,7 @@ const IndexPage = () => (
         software. This is not seen as a particular complication.]
       </em>
     </p>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/mag_jimbol_2.JPG"
@@ -53,7 +53,7 @@ const IndexPage = () => (
         Honeywell Magnetometer Head
       </p>
     </div>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/mag-jimbol_1.JPG"

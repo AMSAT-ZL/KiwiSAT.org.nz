@@ -16,7 +16,7 @@ const IndexPage = () => (
       The two Sun Sensors are based on Hamamatsu Two Dimensional Position
       Sensitive Detector (PSD) Photo-diodes Type S 5991-01.
     </p>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/sun_sensor_kit.jpg"
@@ -51,7 +51,7 @@ const IndexPage = () => (
       out of Range” and “Signal Valid”. The sun sensors will be ground
       switch-able via either uplink.
     </p>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/sun_s_test_rig.JPG"
@@ -77,7 +77,7 @@ const IndexPage = () => (
       production of a custom prototype PCB. This was populated and fully proven
       using the prototype detector head.
     </p>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/sun_sensor.jpg"

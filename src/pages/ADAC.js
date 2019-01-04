@@ -15,7 +15,7 @@ const IndexPage = () => (
       </em>
     </p>
     <h2>ADAC</h2>
-    <div class="image">
+    <div>
       <a
         href="images/Technical/ADAC activity2_L.jpg"
         rel="lightbox[Gallery]"
@@ -42,7 +42,7 @@ const IndexPage = () => (
       Johan Potgieter - are now working with the KiwiSAT team towards the goal
       of orbital experimentation and research.
     </p>
-    <div class="image">
+    <div>
       <a
         href="images/Technical/ADAC team2.jpg"
         rel="lightbox[Gallery]"
@@ -73,7 +73,7 @@ const IndexPage = () => (
       Development has commenced on this vital KiwiSAT scientific experiment
       fulfilling a dream of the KiwiSAT team.{' '}
     </p>
-    <div class="image">
+    <div>
       <a
         href="images/Technical/ADAC team_b.jpg"
         rel="lightbox[Gallery]"

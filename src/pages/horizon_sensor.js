@@ -14,7 +14,7 @@ const IndexPage = () => (
       infrared. It will be mounted on an X or Y face on the ‘attic’ that has
       been added to the satellite structure.{' '}
     </p>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/horizon_1.jpg"
@@ -91,7 +91,7 @@ const IndexPage = () => (
       3. The unknown effect that the gradual light reduction will have on
       switching as the sensor sweeps the terminator.
     </h3>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/horizon_2.jpg"

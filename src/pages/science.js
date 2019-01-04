@@ -29,7 +29,7 @@ const IndexPage = () => (
       us to establish just what level of pointing accuracy could be achieved by
       simple equipment and smart software. <a href="science_1.html">More …</a>{' '}
     </p>
-    <div class="image">
+    <div>
       <a
         href="images/Technical/attitude_testrig.gif"
         rel="lightbox[Gallery]"

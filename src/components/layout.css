@@ -621,13 +621,15 @@ pre tt:after {
 .flex-grid {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.8em;
 }
 .col {
   flex: 1;
 }
 @media only screen and (max-width: 768px) {
   .flex-grid {display: block}
+  .col {
+    margin-bottom: 2.8em;
+  }
 }
 @media only screen and (max-width: 480px) {
   html {

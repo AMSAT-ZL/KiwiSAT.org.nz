@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+import VHFGroup from '../images/VHF_Group.jpg';
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Project Funding" keywords={[`KiwiSAT`, `New Zealand`]} />
@@ -22,13 +24,12 @@ const IndexPage = () => (
       .
     </p>
     <p>
-      This project is funded by radio amateurs through personal and club
+      This project was funded by radio amateurs through personal and club
       donations, and by membership of AMSAT-ZL.
     </p>
     <p>
-      Contributions continue to be made and are both gratefully received and
-      faithfully applied. It is pleasing to see the &quot;Kiwi Ingenuity&quot;
-      achieving so much from what, in space project terms, is so little.
+      It is pleasing to see the &quot;Kiwi Ingenuity&quot; achieving so much
+      from what, in space project terms, is so little.
     </p>
     <h3>30 August 2016 </h3>
     <p>
@@ -65,22 +66,21 @@ const IndexPage = () => (
       contribution of NZ$10,000 was presented to AMSAT-ZL exclusively to provide
       for the necessary Solar cells.
     </p>
-    <div class="image">
-      <p>
-        <a
-          href="images/VHF_Group_1.jpg"
-          rel="lightbox[Gallery]"
-          title="(Left to right) AMSAT-ZL Secretary, Ian ZL1AOX & KiwiSAT Engineer, Fred ZL1BPY recieve cheque from VHF Group Secretary, Dick ZL2TGQ."
-        >
-          <img
-            src="images/VHF_Group_hands.gif"
-            alt="Wellington VHF Group"
-            width="150"
-            height="104"
-          />
-        </a>
-        Hands of support - $10,000
-      </p>
+    <div
+      style={{
+        width: '325px',
+        marginBottom: '1.45em',
+      }}
+    >
+      <img
+        src={VHFGroup}
+        alt="Sample screen output from Telemetry program. Real data from ground testing."
+        width="320"
+        height="214"
+        style={{ marginBottom: `0` }}
+      />
+      <br />
+      <span style={{ fontStyle: `italic` }}>Hands of support - $10,000</span>
     </div>
     <p>
       At the 2007 Easter VHF Convention, Wellington VHF Group Secretary, Dick
@@ -94,23 +94,6 @@ const IndexPage = () => (
       portion of the donation. In a magnanimous gesture The Wellington VHF Group
       in turn made a further generous donation to KiwiSAT.
     </p>
-    <h3>
-      Donations to help fund the completion of the KiwiSAT project can be made
-      to the Treasurer of AMSAT-ZL at:
-    </h3>
-    <h3>
-      <a href="mailto:zl1aox@gmail.com">The Treasurer</a>, AMSAT-ZL
-      <br />
-      894 Ponga Road
-      <br />
-      RD 4<br />
-      Auckland 2584
-      <br />
-      New Zealand
-    </h3>
-    <h3>
-      Donations may also be made securely using this PayPal Donations button.
-    </h3>
   </Layout>
 );
 

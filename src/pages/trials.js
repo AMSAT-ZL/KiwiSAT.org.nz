@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Trials" keywords={[`KiwiSAT`, `New Zealand`]} />
     <h2>TRANSPONDER ON TEST!</h2>
-    <div class="image">
+    <div>
       <p>
         <a
           href="images/Technical/KiwiSAT_Bench.jpg"
@@ -57,7 +57,7 @@ const IndexPage = () => (
     comes out at 145.860 <strong>USB</strong>
     <p>
       <br />
-      <div class="image">
+      <div>
         <p>
           <a
             href="images/Technical/Massey 2.JPG"
