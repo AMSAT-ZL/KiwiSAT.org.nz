@@ -35,7 +35,7 @@ const IndexPage = () => (
     </p>
     <p>
       <strong>Transponder:</strong> Inverting type{' '}
-      <span class="tiny">(Orbital Doppler shift compensation)</span>
+      <span>(Orbital Doppler shift compensation)</span>
     </p>
     <ul>
       <li>Transmit Power: 2 Watts PEP.</li>
@@ -78,7 +78,7 @@ const IndexPage = () => (
     <p>
       Being a linear transponder 30kHz wide, any mode can be used. FM is
       discouraged (but not banned). Amateur stations are encouraged to try out
-      the transponder. {' '}
+      the transponder.
     </p>
     <p>Reports welcome to &lt; zl3ql(at)amsat.org &gt;</p>
   </Layout>
