@@ -1,6 +1,8 @@
 import { Link } from 'gatsby';
 import React from 'react';
 
+import CCBY from '../images/cc-by.png';
+
 const Footer = () => (
   <>
     <div
@@ -88,7 +90,16 @@ const Footer = () => (
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <footer style={{ color: `white` }}>© 2006~2019 AMSAT-ZL</footer>
+        <footer style={{ color: `white` }}>
+          © 2006~2019 AMSAT-ZL
+          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+            <img
+              style={{ marginBottom: `0`, marginLeft: `1em` }}
+              src={CCBY}
+              alt="Available under a Creative Commons Attribution 4.0 International License"
+            />
+          </a>
+        </footer>
       </div>
     </div>
   </>

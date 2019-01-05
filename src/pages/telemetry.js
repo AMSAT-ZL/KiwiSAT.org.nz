@@ -34,7 +34,7 @@ const IndexPage = () => (
     <p>Further screen shots will be added shortly.</p>
     <p>
       If you are interested in evaluating KiwiSAT-TLM please contact the
-      program's <a href="mailto:osbornes@paradise.net.nz">author</a>.
+      program's <a href="mailto:zl2bac@amsat.org">author</a>.
     </p>
   </Layout>
 );
