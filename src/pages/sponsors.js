@@ -25,7 +25,7 @@ import johnsonAero from '../images/sponsors/JALogo.gif';
 
 const IndexPage = () => (
   <Layout>
-    <SEO text="Sponsors" keywords={[`KiwiSAT`, `New Zealand`]} />
+    <SEO title="Sponsors" keywords={[`KiwiSAT`, `New Zealand`]} />
     <h2>
       AMSAT-ZL and the KiwiSAT Team are grateful for the willing support of:
     </h2>
