@@ -1,15 +1,24 @@
 import { Link } from 'gatsby';
 import React from 'react';
 
+import styled from 'styled-components';
+import tw from 'tailwind.macro';
+
 import CCBY from '../images/cc-by.png';
+
+const UpperFooter = styled.div`
+  ${tw`bg-grey`};
+`;
+const LowerFooter = styled.div`
+  ${tw`bg-black`};
+`;
+const PlainList = styled.ul`
+  ${tw`list-reset`};
+`;
 
 const Footer = () => (
   <>
-    <div
-      style={{
-        background: `darkgray`,
-      }}
-    >
+    <UpperFooter>
       <div
         style={{
           margin: `0 auto`,
@@ -17,7 +26,7 @@ const Footer = () => (
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <ul style={{ listStyle: `none`, columns: 3 }}>
+        <PlainList style={{ columns: 3, marginLeft: 0, marginBottom: 0 }}>
           <li>
             <Link to="3_axis">3 Axis Control</Link>
           </li>
@@ -75,14 +84,10 @@ const Footer = () => (
           <li>
             <Link to="trials">Trials</Link>
           </li>
-        </ul>
+        </PlainList>
       </div>
-    </div>
-    <div
-      style={{
-        background: `black`,
-      }}
-    >
+    </UpperFooter>
+    <LowerFooter>
       <div
         style={{
           margin: `0 auto`,
@@ -101,7 +106,7 @@ const Footer = () => (
           </a>
         </footer>
       </div>
-    </div>
+    </LowerFooter>
   </>
 );
 
