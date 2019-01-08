@@ -33,6 +33,11 @@ const IndexPage = () => (
     </p>
     <p>Further screen shots will be added shortly.</p>
     <p>
+      <a href="/papers/KiwiSAT-CW2.pdf">
+        CW Beacon Telemetry Display Documentation
+      </a>
+    </p>
+    <p>
       If you are interested in evaluating KiwiSAT-TLM please contact the
       program's <a href="mailto:zl2bac@amsat.org">author</a>.
     </p>
