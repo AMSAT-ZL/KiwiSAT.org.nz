@@ -1,0 +1,29 @@
+## KiwiSAT Team Contacts
+
+* [**Project Engineer**](mailto:engineering@kiwisat.org.nz), KiwiSAT
+* 116 Wade River Road
+* Arkles Bay
+* Whangaparaoa 0932
+* New Zealand
+
+
+* [**Launch Team**](mailto:launch@kiwisat.org.nz), KiwiSAT
+
+
+* [**Webmaster**](mailto:webmaster@kiwisat.org.nz), KiwiSAT
+
+
+* [**Secretary**](secretary@kiwisat.org.nz), AMSAT-ZL
+* 894 Ponga Road
+* RD 4
+* Auckland 2584
+* New Zealand
+
+
+* [**President**](president@kiwisat.org.nz), AMSAT-ZL
+* 33 Ryeland Avenue
+* Christchurch 8041
+* New Zealand
+
+
+* [**AMSAT-ZL**](mailto:amsat-zl@kiwisat.org.nz)
