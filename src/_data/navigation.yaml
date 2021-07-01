@@ -1,6 +1,5 @@
 ---
 items:
-  - text: Radio
-    url: "/frequencies"
-  - text: Engineering
-    url: "/engineering"
+  - text: Contact
+    url: /contact
+

@@ -1,3 +1,4 @@
+const yaml = require("js-yaml");
 const Image = require("@11ty/eleventy-img");
 
 async function imageShortcode(src, alt, sizes) {
@@ -24,6 +25,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "./node_modules/alpinejs/dist/cdn.min.js": "js/alpine.js",
   });
+
+  // allow .yaml _data files
+  eleventyConfig.addDataExtension("yaml", (contents) =>
+    yaml.safeLoad(contents)
+  );
 
   // Copy Image Folder to /_site
   eleventyConfig.addPassthroughCopy("src/img");

@@ -1,9 +1,9 @@
-<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
+<div class="w-full">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
         <div class="flex items-center">
-            <div class="{{ 'hidden' if path == 'home' }} w-8">
-                {% image "src/img/kiwisat-icon.jpg", "KiwiSAT logo", "20px" %}
+            <div class="{{ 'hidden' if path == 'home' }} w-16">
+                {% image "src/img/kiwisat-icon.jpg", "KiwiSAT logo", "40px" %}
             </div>
             <div>
               <a href="/" class="text-blue-700 font-bold text-lg">KiwiSAT</a>
@@ -20,7 +20,6 @@
 
         <!--Menu-->
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
-
             {% if navigation.items %}
 
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
