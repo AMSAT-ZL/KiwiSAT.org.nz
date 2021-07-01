@@ -12,9 +12,15 @@ title: Contact
 * Whangaparaoa 0932
 * New Zealand
 
+&nbsp;
+
 * [**Launch Team**](mailto:launch@kiwisat.org.nz), KiwiSAT
 
+&nbsp;
+
 * [**Webmaster**](mailto:webmaster@kiwisat.org.nz), KiwiSAT
+
+&nbsp;
 
 * [**Secretary**](secretary@kiwisat.org.nz), AMSAT-ZL
 * 894 Ponga Road
@@ -22,10 +28,14 @@ title: Contact
 * Auckland 2584
 * New Zealand
 
+&nbsp;
+
 * [**President**](president@kiwisat.org.nz), AMSAT-ZL
 * 33 Ryeland Avenue
 * Christchurch 8041
 * New Zealand
 
-* [**AMSAT-ZL**](mailto:amsat-zl@kiwisat.org.nz)
+&nbsp;
+
+* [**AMSAT-ZL Web Site**](https://amsat-zl.org.nz/)
 </div>
