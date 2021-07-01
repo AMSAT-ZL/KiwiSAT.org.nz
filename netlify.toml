@@ -1,4 +1,4 @@
 [build]
   publish = "_site"
-  command = "NODE_VERSION=14 npm run build"
+  command = "npm run build"
 
