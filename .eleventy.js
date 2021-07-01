@@ -2,6 +2,7 @@ const Image = require("@11ty/eleventy-img");
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
+    outputDir: "./_site/img/",
     widths: [300, 600],
     formats: ["avif", "jpeg"]
   });
@@ -26,9 +27,6 @@ module.exports = function (eleventyConfig) {
 
   // Copy Image Folder to /_site
   eleventyConfig.addPassthroughCopy("src/img");
-
-  // Copy processed images to /_site
-  eleventyConfig.addPassthroughCopy("img");
 
   // Copy Papers Folder to /_site
   eleventyConfig.addPassthroughCopy("src/papers");
