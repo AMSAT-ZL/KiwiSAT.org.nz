@@ -1,11 +1,11 @@
 ---
 links:
   - text: 3 Axis Control
-    url: 3_axis
+    url: /3_axis
   - text: ADAC
-    url: ADAC
+    url: /ADAC
   - text: Beacon
-    url: beacon
+    url: /beacon
   - text: Engineering
     url: /engineering
   - text: Frequencies

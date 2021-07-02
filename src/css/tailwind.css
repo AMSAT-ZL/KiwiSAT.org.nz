@@ -2,13 +2,13 @@
 
 @layer base {
     h1 {
-        @apply text-2xl font-bold mt-4 mb-4;
+        @apply text-2xl font-bold my-4;
     }
     h2 {
-        @apply text-xl font-semibold mt-4 mb-4;
+        @apply text-xl font-semibold my-4;
     }
     h3 {
-        @apply text-lg font-semibold;
+        @apply text-lg font-semibold my-4;
     }
     p {
         @apply mt-4;
