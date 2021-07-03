@@ -1,38 +1,38 @@
 ---
 links:
   - text: 3 Axis Control
-    url: /3_axis
+    url: /3_axis/
   - text: ADAC
-    url: /ADAC
+    url: /ADAC/
   - text: Beacon
-    url: /beacon
+    url: /beacon/
   - text: Engineering
-    url: /engineering
+    url: /engineering/
   - text: Frequencies
-    url: /frequencies
+    url: /frequencies/
   - text: Funding
-    url: /funding
+    url: /funding/
   - text: Horizon sensor
-    url: /horizon_sensor
+    url: /horizon_sensor/
   - text: Launch
-    url: /launch
+    url: /launch/
   - text: Links
-    url: /links
+    url: /links/
   - text: Media
-    url: /media
+    url: /media/
   - text: Operating
-    url: /operating
+    url: /operating/
   - text: Orbit
-    url: /orbit
+    url: /orbit/
   - text: Science
-    url: /science
+    url: /science/
   - text: Sponsors
-    url: /sponsors
+    url: /sponsors/
   - text: Status
-    url: /status
+    url: /status/
   - text: Sun sensor
-    url: /sun_sensor
+    url: /sun_sensor/
   - text: Telemetry
-    url: /telemetry
+    url: /telemetry/
   - text: Trials
-    url: /trials
+    url: /trials/

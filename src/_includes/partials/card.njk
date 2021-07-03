@@ -1,9 +1,18 @@
 {% macro card(href="#", src="", alt="", width="", height="", text="") %}
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
   <div class="md:flex">
-    <div class="flex-none">
+    <div class="w-44 flex-none">
       {% if src %}
-      <img class="object-none object-center" src="/img/{{src}}" alt="{{ alt }} width="{{ width }}" height="{{ height}}">
+      <img class="object-center" src="/img/{{src}}" alt="{{ alt }}"
+        {% if width %}
+          width="{{ width }}"
+        {% endif %}
+        {% if height %}
+          height="{{ height}}"
+        {% endif %}
+      >
+      {% else %}
+      &nbsp;
       {% endif %}
     </div>
     <div class="w-96 p-8">
