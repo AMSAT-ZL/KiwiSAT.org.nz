@@ -1,5 +1,6 @@
 ---
 items:
+  - text: News
+    url: /news/
   - text: Contact
-    url: /contact
-
+    url: /contact/

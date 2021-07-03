@@ -26,6 +26,11 @@ module.exports = function (eleventyConfig) {
     "./node_modules/alpinejs/dist/cdn.min.js": "js/alpine.js",
   });
 
+  // human readable date filter YYYY-MM-DD
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return dateObj.toLocaleString('en-CA', { timeZone: 'UTC' }).slice(0, 10);
+  });
+
   // allow .yaml _data files
   eleventyConfig.addDataExtension("yaml", (contents) =>
     yaml.safeLoad(contents)

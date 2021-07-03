@@ -6,6 +6,8 @@ links:
     url: /ADAC/
   - text: Beacon
     url: /beacon/
+  - text: Contact
+    url: /contact/
   - text: Engineering
     url: /engineering/
   - text: Frequencies
@@ -20,6 +22,8 @@ links:
     url: /links/
   - text: Media
     url: /media/
+  - text: News
+    url: /news/
   - text: Operating
     url: /operating/
   - text: Orbit

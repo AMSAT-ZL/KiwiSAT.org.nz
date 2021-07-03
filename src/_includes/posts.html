@@ -1,0 +1,34 @@
+{% if not title %}
+{% set title = page.fileSlug | capitalize | replace("_"," ") %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if description %}
+    <meta name="description" content="{{description}}">
+    {% endif %}
+    <title>
+      {{title}} - KiwiSAT News
+    </title>
+    {% if description %}
+      <meta name="description" content="{{description}}"/>
+    {% endif %}
+    {% block head %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+  </head>
+  <body>
+    {% include "./partials/navbar.html" %}
+    <div class="container prose">
+    <h1>{{ title }}</h1>
+
+    {{ content | safe }}
+    </div>
+
+    {% include "./partials/footer.html" %}
+
+    <script src="/js/alpine.js"></script>
+  </body>
+</html>
