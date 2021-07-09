@@ -13,6 +13,9 @@ module.exports = {
     },
     extend: {
       colors: {},
+      backgroundImage: theme => ({
+        'hero-img': "url('/img/KiwiSAT-in-orbit.jpg')",
+      })
     },
   },
   variants: {},

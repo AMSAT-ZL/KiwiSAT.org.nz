@@ -1,6 +1,6 @@
 ---
 title: KiwiSAT Meeting at the 2021 NZART Conference
-description: Attendees gathered to discuss a project plan for getting KiwiSAT in orbit. What is the Value Proposition of KiwiSAT and what is necessary to get it ready for launch. A proposed schedule was presented.
+description: Attendees gathered to discuss a project plan for getting KiwiSAT in orbit. What is the Value Proposition of KiwiSAT and what is necessary to get it ready for launch? A proposed schedule was presented.
 date: 2021-06-06
 author: Douglas Birt ZL1BFS
 tags:

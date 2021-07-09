@@ -1,8 +1,13 @@
 <div class="w-full">
+  {% if path == "home" %}
+  <div class="container p-8 bg-gradient-to-b from-black to-blue-800 md:bg-hero-img">
+  {% else %}
+  <div class="container">
+  {% endif %}
     <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
-        <div class="flex items-center">
-            <div class="{{ 'hidden' if path == 'home' }} w-16">
+        <div class="flex items-center {{ 'hidden' if path == 'home' }}">
+            <div class="w-16">
                 {% image "src/img/kiwisat-icon.jpg", "KiwiSAT logo", "40px" %}
             </div>
             <div>
@@ -17,7 +22,11 @@
                 <ul class="pt-6 md:pt-0 list-reset md:flex justify-end flex-1 items-center">
                     {% for item in navigation.items %}
                         <li class="nav__item mr-3">
+                            {% if path == "home" %}
+                            <a @click="isOpen = false" class="text-ml inline-block text-gray-300 no-underline hover:text-blue-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                            {% else %}
                             <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-blue-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                            {% endif %}
                         </li>
                     {% endfor %}
                 </ul>
@@ -25,4 +34,9 @@
             {% endif %}
         </div>
     </nav>
+  {% if path == "home" %}
+    <h1 class="text-white text-3xl md:text-4xl">KiwiSAT</h1>
+    <h2 class="text-white pb-72">A New Zealand Satellite</h2>
+  {% endif %}
+  </div>
 </div>
