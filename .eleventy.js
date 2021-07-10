@@ -42,11 +42,12 @@ module.exports = function (eleventyConfig) {
   // Copy Papers Folder to /_site
   eleventyConfig.addPassthroughCopy("src/papers");
 
-  // Copy favicon to /_site
-  eleventyConfig.addPassthroughCopy("src/favicon.ico");
-
-  // Copy robots.txt to /_site
-  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  // Copy Netlify CMS configuration to /_site
+  eleventyConfig.addPassthroughCopy({
+    "./src/admin/config.yml": "./admin/config.yml",
+    "./src/favicon.ico": "./favicon.ico",
+    "./src/robots.txt": "./robots.txt",
+  });
 
   // image processing
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
