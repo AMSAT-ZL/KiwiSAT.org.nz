@@ -35,7 +35,4 @@ title: Contact
 * Christchurch 8041
 * New Zealand
 
-&nbsp;
-
-* [**AMSAT-ZL Web Site**](https://amsat-zl.org.nz/)
 </div>
