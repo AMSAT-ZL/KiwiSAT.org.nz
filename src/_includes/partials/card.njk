@@ -1,23 +1,21 @@
 {% macro card(href="#", src="", alt="", width="", height="", text="") %}
-<div class="w-108 mb-4 bg-white overflow-hidden">
-  <div class="md:flex">
-    <div class="flex-none w-48">
-      {% if src %}
-      <img class="p-0 object-none object-center" src="/img/{{src}}" alt="{{ alt }}"
-        {% if width %}
-          width="{{ width }}"
-        {% endif %}
-        {% if height %}
-          height="{{ height}}"
-        {% endif %}
-      >
-      {% else %}
-      &nbsp;
+<div class="h-auto md:h-40 w-full mt-4 flex flex-wrap md:flex-nowrap overflow-hidden">
+  <div class="flex-none w-24 md:w-48 md:h-40">
+    {% if src %}
+    <img class="object-contain pt-2" src="/img/{{src}}" alt="{{ alt }}"
+      {% if width %}
+        width="{{ width }}"
       {% endif %}
-    </div>
-    <div class="p-2">
-      <a href="{{ href }}" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{{ text }}</a>
-    </div>
+      {% if height %}
+        height="{{ height }}"
+      {% endif %}
+    >
+    {% else %}
+    <span class="text-2xl text-blue-800">*</span>
+    {% endif %}
+  </div>
+  <div class="p-2 h-auto md:h-40">
+    <a href="{{ href }}" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{{ text }}</a>
   </div>
 </div>
 {% endmacro %}
