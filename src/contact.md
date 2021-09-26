@@ -22,7 +22,7 @@ title: Contact
 
 &nbsp;
 
-* [**Secretary**](secretary@kiwisat.org.nz), AMSAT-ZL
+* [**Secretary**](mailto:iana@kcbbs.gen.nz), AMSAT-ZL
 * 894 Ponga Road
 * RD 4
 * Auckland 2584
@@ -30,7 +30,7 @@ title: Contact
 
 &nbsp;
 
-* [**President**](president@kiwisat.org.nz), AMSAT-ZL
+* [**President**](mailto:president@kiwisat.org.nz), AMSAT-ZL
 * 33 Ryeland Avenue
 * Christchurch 8041
 * New Zealand
