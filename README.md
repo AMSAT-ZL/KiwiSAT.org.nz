@@ -4,6 +4,8 @@
 
 [KiwiSAT Website](https://www.KiwiSAT.org.nz/) source
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b303148-4018-4bf2-85c3-dc74aec692c7/deploy-status)](https://app.netlify.com/sites/kiwisat/deploys)
+
 ### Contributing
 
 You are welcome to contribute suggestions, fixes,
