@@ -20,11 +20,7 @@ module.exports = {
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
-  purge: {
-    mode: "all",
-    content: ["./**/*.html"],
-    options: {
-      whitelist: [],
-    },
-  },
+  content: [
+    './src/**/*.html',
+  ],
 };
