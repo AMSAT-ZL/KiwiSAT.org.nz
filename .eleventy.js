@@ -33,7 +33,7 @@ module.exports = function (eleventyConfig) {
 
   // allow .yaml _data files
   eleventyConfig.addDataExtension("yaml", (contents) =>
-    yaml.safeLoad(contents)
+    yaml.load(contents)
   );
 
   // Copy Image Folder to /_site
