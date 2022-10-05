@@ -24,16 +24,16 @@ to create a local copy of the web site to see the changes
 
 1. Install [Node.js](https://nodejs.org/en/) (version 14.17.0 or later)
 2. Clone the repository
-    
+
     ```git clone https://github.com/AMSAT-ZL/KiwiSAT.org.nz.git```
 3. Change into the new directory
-    
+
     ```cd KiwiSAT.org.nz```
 4. Install the necessary dependencies
-    
+
     ```npm install```
 5. Start a test web server
-    
+
     ```npm run start```
 6. Use your web browser to visit `http://localhost:8080`
 to view changes rendered live after each file save.
