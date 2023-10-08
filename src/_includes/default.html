@@ -2,7 +2,7 @@
 {% set title = page.fileSlug | capitalize | replace("_"," ") %}
 {% endif %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="min-h-screen">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
@@ -24,7 +24,7 @@
     <meta name="generator" content="{{ eleventy.generator }}">
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
   </head>
-  <body>
+  <body class="min-h-screen">
     {% include "./partials/navbar.html" %}
     <div class="container">
     {{ content | safe }}

@@ -1,21 +1,19 @@
-{% macro card(href="#", src="", alt="", width="", height="", text="") %}
-<div class="h-auto md:h-40 w-full mt-4 flex flex-wrap md:flex-nowrap overflow-hidden">
-  <div class="flex-none w-24 md:w-48 md:h-40">
-    {% if src %}
-    <img class="object-contain pt-2" src="/img/{{src}}" alt="{{ alt }}"
-      {% if width %}
-        width="{{ width }}"
-      {% endif %}
-      {% if height %}
-        height="{{ height }}"
-      {% endif %}
-    >
-    {% else %}
-    <span class="text-2xl text-blue-800">*</span>
+{% macro card(href="#", src="", alt="", width="", height="", text="", textimg="") %}
+<a href="{{ href }}" target="_blank" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100">
+  {% if src %}
+  <img class="object-contain p-8" src="/img/{{src}}" alt="{{ alt }}"
+    {% if width %}
+      width="{{ width }}"
     {% endif %}
+    {% if height %}
+      height="{{ height }}"
+    {% endif %}
+  >
+  {% else %}
+  <div class="w-96 p-8"><p class="text-4xl">{{ textimg }}</p></div>
+  {% endif %}
+  <div class="flex flex-col md:flex-row jusifty-between p-8 leading-normal">
+    <p class="mb-3 font-normal text-gray-700 max-w-small">{{ text }}</p>
   </div>
-  <div class="p-2 h-auto md:h-40">
-    <a href="{{ href }}" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{{ text }}</a>
-  </div>
-</div>
+</a>
 {% endmacro %}
