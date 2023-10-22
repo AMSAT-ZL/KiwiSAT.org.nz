@@ -12,12 +12,12 @@ Conference 2023, the group unanimously voted to dissolve
 the organization.
 
 There is hope that KiwiSAT can find a home at the Space
-Museum at Te Awamutu or possibly one of the univeristies
+Museum at Te Awamutu or possibly one of the universities
 that contributed to its design and construction.
 
-[Documentation has been published](https://github.com/AMSAT-ZL)
+[Documentation is published](https://github.com/AMSAT-ZL)
 in the hope that this open source work will benefit future
 satellite efforts.
 
 The remaining funds in the AMSAT-ZL treasury will be
-donated to the NZART Radio Science Trust.
+donated to the [NZART Radio Science Trust](https://www.nzart.org.nz/nzart/trust).
