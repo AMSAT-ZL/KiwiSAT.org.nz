@@ -22,8 +22,6 @@ links:
     url: /links/
   - text: Media
     url: /media/
-  - text: News
-    url: /news/
   - text: Operating
     url: /operating/
   - text: Orbit
@@ -40,3 +38,6 @@ links:
     url: /telemetry/
   - text: Trials
     url: /trials/
+  - text: GitHub
+    url: https://github.com/AMSAT-ZL/
+
