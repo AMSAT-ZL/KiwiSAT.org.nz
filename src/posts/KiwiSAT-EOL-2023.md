@@ -7,9 +7,14 @@ tags:
   - post
 ---
 
-At the AMSAT-ZL Annual General Meeting held at the NZART
-Conference 2023, the group unanimously voted to dissolve
+At the [AMSAT-ZL Annual General Meeting](/papers/AMSAT-ZL-AGM-2023.pdf)
+held at the NZART Conference 2023, the group unanimously voted to dissolve
 the organization.
+
+The KiwiSAT project started in 1999, and was practially
+completed in 2010.  Lack of suitable launches and funds
+for the final integration were unavailable, and the
+project stalled.
 
 There is hope that KiwiSAT can find a home at the Space
 Museum at Te Awamutu or possibly one of the universities
