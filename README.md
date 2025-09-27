@@ -41,6 +41,6 @@ to view changes rendered live after each file save.
 ### History
 
 This web site contains information from the earlier
-version created by [Avatar](https://www.avatar.co.nz/)
+version created by Avatar
 with additional background and reference information.
 It is rendered in a more mobile/tablet-friendly format.
