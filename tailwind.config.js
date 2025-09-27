@@ -1,4 +1,6 @@
-module.exports = {
+import typography from '@tailwindcss/typography';
+
+export default {
   theme: {
     container: {
       center: true,
@@ -7,20 +9,18 @@ module.exports = {
         sm: '640px',
         md: '768px',
         lg: '1024px',
-        xl: '1024px',     // 1280px
-        '2xl': '1024px',  // 1536px
+        xl: '1024px', // 1280px
+        '2xl': '1024px', // 1536px
       },
     },
     extend: {
       colors: {},
-      backgroundImage: theme => ({
+      backgroundImage: (theme) => ({
         'hero-img': "url('/img/KiwiSAT-hero.jpg')",
-      })
+      }),
     },
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
-  content: [
-    './src/**/*.html',
-  ],
+  plugins: [typography],
+  content: ['./src/**/*.html'],
 };
