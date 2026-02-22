@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if description %}
     <meta name="description" content="{{description}}">
+    {% else %}
+    <meta name="description" content="KiwiSAT - Historical Archive and Documentation for the New Zealand Satellite Project (1999–2023).">
     {% endif %}
     <title>
       {{title}} - KiwiSAT News
@@ -22,6 +24,9 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
   </head>
   <body class="min-h-screen">
+    <div class="bg-gray-100 text-gray-700 text-center py-2 text-sm border-b">
+      This site is a historical archive. The KiwiSAT project was dissolved in June 2023.
+    </div>
     {% include "./partials/navbar.html" %}
     <div class="container prose">
     <h1>{{ title }}</h1>

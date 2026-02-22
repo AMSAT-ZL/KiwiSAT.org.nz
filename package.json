@@ -15,7 +15,7 @@
     "css": "postcss src/css/tailwind.css --o _site/css/style.css --watch",
     "watch": "npx @11ty/eleventy --watch",
     "serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
-    "start": "npm-run-all --parallel css watch",
+    "start": "npm-run-all --parallel css serve",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "repository": {
